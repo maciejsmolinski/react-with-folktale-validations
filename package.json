@@ -1,14 +1,8 @@
 {
-  "name": "react-folktale-based-form-with-validations",
+  "name": "react-folktale-validations",
   "version": "1.0.0",
   "description": "",
-  "keywords": [
-    "react",
-    "jest",
-    "validations",
-    "composable",
-    "folktale"
-  ],
+  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "enzyme": "3.3.0",

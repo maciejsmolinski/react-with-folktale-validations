@@ -135,13 +135,17 @@ describe('Validations', () => {
 
     it('should fail when username is empty', () => {
       expect(
-        isFailure(subject({ username: '', password: 'password' }))
+        isFailure(
+          subject({ username: '', password: 'password' })
+        )
       ).toBe(true);
     });
 
     it('should fail when password is empty', () => {
       expect(
-        isFailure(subject({ username: 'username', password: '' }))
+        isFailure(
+          subject({ username: 'username', password: '' })
+        )
       ).toBe(true);
     });
 
@@ -171,9 +175,10 @@ describe('Validations', () => {
 
     it('should not return success with original data on failure', () => {
       expect(
-        subject({ username: 'usern', password: 'passw' }).getOrElse(
-          {}
-        )
+        subject({
+          username: 'usern',
+          password: 'passw'
+        }).getOrElse({})
       ).toEqual({});
     });
 
