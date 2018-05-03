@@ -1,15 +1,19 @@
-# React with Folktale Validations
+# Folktale Validations in React Application
 
-This repository serves as a demo of how [Folktale.js](https://folktale.origamitower.com/) can be integrated with React applications in order to validate form data
+Bring the power of composable [Folktale.js](https://folktale.origamitower.com/) validators to your React application.
 
-## Live Demo
+## Documentation
+
+* Folktale/Validation — https://folktale.origamitower.com/api/v2.1.0/en/folktale.validation.html
+
+## Demo: React Application using Folktale.js Validations
 
 * Preview: https://j4vw7vjwl9.codesandbox.io/
 * Preview + Code Editor: https://codesandbox.io/embed/j4vw7vjwl9
 
 | Preview |
 |:-:|
-| ![](https://i.imgur.com/CepPSMA.gif) |
+| ![](https://i.imgur.com/nJ9I38h.gif) |
 
 ## Stay in touch
 
